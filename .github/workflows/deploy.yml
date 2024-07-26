@@ -28,4 +28,4 @@ jobs:
         tags: alamash/payment-clone:latest  # Replace with your Docker Hub username and repository
 
     - name: Verify Pushed Image
-      run: docker run alamash/payment-clone:latest  # Replace with your Docker Hub username and repository
+      run: docker pull alamash/payment-clone:latest  # Replace with your Docker Hub username and repository
